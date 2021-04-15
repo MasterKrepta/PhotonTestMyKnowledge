@@ -11,7 +11,14 @@ public class InstantiatePlayer : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-        
+        if (!PhotonNetwork.IsConnected)  //FOR TESTING
+        {
+            int index = Random.Range(0, Models.Length);
+
+            Instantiate(Models[index], transform.position, Quaternion.identity);
+        }
+
+
 
         if (base.photonView.IsMine)
         {
