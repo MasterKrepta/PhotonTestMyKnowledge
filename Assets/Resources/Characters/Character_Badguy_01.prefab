@@ -106,7 +106,6 @@ GameObject:
   - component: {fileID: 5965565632484342923}
   - component: {fileID: 452582920195352260}
   - component: {fileID: -8299499684786804042}
-  - component: {fileID: 2443773926666112462}
   - component: {fileID: -7559578226961585950}
   m_Layer: 0
   m_Name: Character_Badguy_01
@@ -261,23 +260,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &2443773926666112462
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 511581452374183386}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 1844732171}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &-7559578226961585950
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2246,11 +2228,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &1844732171 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 7258568996922199450}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1844732172 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}

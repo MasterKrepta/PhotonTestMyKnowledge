@@ -889,7 +889,6 @@ GameObject:
   - component: {fileID: -5440300081393727183}
   - component: {fileID: 4111756779554817229}
   - component: {fileID: 5216388898876338903}
-  - component: {fileID: 3682207409438495083}
   - component: {fileID: -263760937851978176}
   m_Layer: 0
   m_Name: Character_Sheriff_01
@@ -1044,23 +1043,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &3682207409438495083
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4812428317038315161}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 9108069238457703122}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &-263760937851978176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &9108069238457703122 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 1935917531192456771}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &9108069238457703125 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}

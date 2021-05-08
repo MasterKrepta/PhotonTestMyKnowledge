@@ -888,7 +888,6 @@ GameObject:
   - component: {fileID: -2320430829722141119}
   - component: {fileID: 9154390870078480856}
   - component: {fileID: 3958824103167006102}
-  - component: {fileID: -7690101566808681259}
   - component: {fileID: -4917001068651558096}
   m_Layer: 0
   m_Name: Character_Cowgirl_01
@@ -1043,23 +1042,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &-7690101566808681259
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4310633490200464828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 5669066075615922520}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &-4917001068651558096
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &5669066075615922520 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 3032909936612632009}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &5669066075615922527 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}

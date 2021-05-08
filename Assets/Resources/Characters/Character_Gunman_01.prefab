@@ -138,7 +138,6 @@ GameObject:
   - component: {fileID: 8927484795863081338}
   - component: {fileID: -881494272527306582}
   - component: {fileID: -1709651365227693541}
-  - component: {fileID: -1111965720829372311}
   - component: {fileID: 3701401202959853463}
   m_Layer: 0
   m_Name: Character_Gunman_01
@@ -293,23 +292,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &-1111965720829372311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 770841568647768001}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 2146196298298317446}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &3701401202959853463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &2146196298298317446 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 8751422211578279447}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &2146196298298317441 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}

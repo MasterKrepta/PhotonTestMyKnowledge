@@ -15,7 +15,6 @@ GameObject:
   - component: {fileID: -6165587072332106010}
   - component: {fileID: -5718093884517179898}
   - component: {fileID: 3038124908839431587}
-  - component: {fileID: -2708183633407025705}
   - component: {fileID: -5324268440697242647}
   m_Layer: 0
   m_Name: Character_WorkingGirl_01
@@ -170,23 +169,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &-2708183633407025705
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 157350493747361853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 1162409548089577320}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &-5324268440697242647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &1162409548089577320 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 8402075714582782969}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1162409548089577327 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}

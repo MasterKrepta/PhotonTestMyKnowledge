@@ -1422,7 +1422,6 @@ GameObject:
   - component: {fileID: 8665803194444270889}
   - component: {fileID: 7468631050595764967}
   - component: {fileID: 4875791576905590740}
-  - component: {fileID: -2141150572863457435}
   - component: {fileID: -5226721939205340934}
   m_Layer: 0
   m_Name: Character_Business_Man_01
@@ -1577,23 +1576,6 @@ MonoBehaviour:
   - Mac
   - Dennis
   - Dee
---- !u!114 &-2141150572863457435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7366575090705988828}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d690ca4a440bbaa41b8c89895090fd42, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DetectionRange: 10
-  coneRadius: 0.5
-  DetectTime: 1.5
-  detectionSphere: {fileID: 7262979065838645142}
-  detectionLoc: {x: 0, y: 1, z: 10}
 --- !u!114 &-5226721939205340934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2226,11 +2208,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
---- !u!1 &7262979065838645142 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7258568998323907729, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
-  m_PrefabInstance: {fileID: 31761529521783559}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7262979065838645137 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7258568998323907734, guid: f55ae6435994f9e4f9a74c82d07bd0e0, type: 3}
